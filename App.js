@@ -7,6 +7,7 @@ const msg=document.querySelector("#msg");
 const userScorePara = document.querySelector("#user-score");
 const compScorePara = document.querySelector("#comp-score");
 
+//genCompChoice function
 const genCompChoice= () => {
     const options=["rock", "paper", "scissors"];
     const randIdx=Math.floor(Math.random() * 3);
